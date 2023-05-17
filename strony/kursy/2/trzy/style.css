@@ -1,0 +1,91 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://cdn.glitch.com/06612094-8835-4487-bd28-c7610aa7dc59%2Fbruno-nascimento-PHIgYUGQPvU-unsplash.jpg?v=1623661732345");
+    background-size: cover;/*zdjęcie dopasowane do rozmiaru obszaru w któym się znajduje*/
+    background-attachment: fixed;/*obraz tła pozostaje w tym samym położeniu na stronie*/
+    background-position: -500px ;
+    background-repeat:none;
+    color: #f5f5f5;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #kontener{
+   
+    background-color:#202020;
+    width:310px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15px;
+    border-radius:5px;
+  
+  }
+  
+  li:hover{
+    
+    color:red;
+    cursor: pointer;
+    text-decoration: line-through;
+  }
+  
+  input,label{
+    display:block;
+    margin-bottom:10px;
+    
+  }
+  
+  input{
+    
+    width:300px;
+    height:25px;
+    background-color:#202020;
+    border:2px solid #121212;
+    color:#f5f5f5;
+    font-size:20px;
+   
+  }
+  
+  
+  #przyciskDodaj,#przyciskStart,#przyciskReset{
+    
+  
+    text-align:center;
+    text-decoration:none;
+    background-color:#0078f2;
+    opacity:0.8;/*przezroczystość elementu od 0.0-1*/
+    padding:10px;
+    border:2px solid #0078f2;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:10px;
+    width:305px;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    border-radius:5px;
+  }
+  
+  #przyciskDodaj:hover,#przyciskStart:hover,#przyciskReset:hover{
+    cursor:pointer;
+     background-color:#cddae3;
+    color:#1d3b4f;
+    border:2px solid #cddae3;
+    transition-duration:0.5s;/*czas na załadowanie nowych instrukcji stylów*/
+  
+  }
+  
+  #komunikat{
+    
+    color:#ff0309;
+  }
+  
+  
+  #treningInfo{
+    width:290px;
+    height:230px;
+    background-color:#538771;
+    padding:10px;
+    border-radius:5px;
+  }
+  
+  
+  

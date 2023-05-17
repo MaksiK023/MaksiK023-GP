@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon"
+    href="https://cdn.glitch.com/06612094-8835-4487-bd28-c7610aa7dc59%2F18-182237_30-timer-interval-seconds-tractor-tyre-icon.png?v=1622455576469" />
+
+  <title>Ćwiczenia</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- Import the webpage's stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Import the webpage's javascript file -->
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+  <div id="kontener">
+
+    <label>Czas na wykonanie jednego ćwiczenia:</label>
+    <input id="czasCwiczenia" type="number" min="1" max="100" value="40"
+      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+
+    <label>Czas na odpoczynek pomiędzy ćwiczeniami:</label>
+    <input id="czasOdpoczynku" type="number" min="1" max="100" value="5"
+      onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+
+    <label>Dodaj ćwiczenie:</label>
+    <input id="cwiczenie" type="text" maxlength="15">
+
+
+    <button id="przyciskDodaj">DODAJ</button>
+
+    <!-- miejsce wyświetlania błędów-->
+    <p id="komunikat"></p>
+
+
+    <!-- miejsce wyświetlania listy ćwiczeń-->
+
+    <ol id="listaCwiczen"></ol>
+
+
+
+    <button id="przyciskStart">START</button>
+
+    <button id="przyciskReset">RESET</button>
+
+
+
+    <h3 id="liczbaSerii"></h3>
+    <!--Panel wyświetlający informacje o treningu-->
+    <div id="treningInfo"></div>
+
+  </div>
+
+  <!--dźwięki użyte w projeckie-->
+  <audio id="dzwiekPrzygotowanie"
+    src="https://cdn.glitch.com/06612094-8835-4487-bd28-c7610aa7dc59%2Fpop.wav?v=1622470981753"></audio>
+  <audio id="dzwiekStart"
+    src="https://cdn.glitch.com/06612094-8835-4487-bd28-c7610aa7dc59%2FGong(1).wav?v=1622544179368"></audio>
+  <audio id="dzwiekNastepneCwiczenie"
+    src="https://cdn.glitch.com/06612094-8835-4487-bd28-c7610aa7dc59%2FCollect.wav?v=1622544761552"></audio>
+
+</body>
+
+</html>

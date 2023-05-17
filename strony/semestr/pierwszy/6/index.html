@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Formularz</title>
+    <link rel="icon" href="assets/planeta.webp" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <meta property="og:site_name" content="https://maksik023-gp.ml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Formularz zgłoszeniowy - MaksiK023" />
+    <meta name="theme-color" content="#22adf2" />
+  </head>
+
+  <body>
+    <center>
+      <form
+        action="https://formsubmit.co/maksik.kontakt@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <p class="rainbow">{WSZYSTKIE INFORMACJE TUTAJ PODANE PO KLIKNIĘCIU PRZYCISKU NA SAMYM DOLE ZOSTANĄ WYSŁANE NA MÓJ EMAIL!}</p>
+        <fieldset>
+          <legend>Dane użytkownika</legend>
+
+          <label for="nazwaUzytkownika">Nazwa użytkownika*</label>
+          <input
+            class="shadow"
+            type="text"
+            maxlength="10"
+            placeholder="Podaj nazwe użytkownika"
+            id="nazwaUzytkownika"
+            name="nazwa_uzytkownika"
+            required
+          />
+
+          <label for="hasloUzytkownika">Hasło*</label>
+          <input
+            class="shadow"
+            type="password"
+            required
+            name="haslo"
+            placeholder="Podaj hasło"
+            id="hasloUzytkownika"
+          />
+
+          <label for="emailUzytkownika">Email*</label>
+          <input
+            class="shadow"
+            type="email"
+            required
+            name="email"
+            placeholder="Podaj email"
+            id="emailUzytkownika"
+          />
+
+          <label for="dataUzytkownika">Data Urodzenia</label>
+          <input
+            class="shadow"
+            type="date"
+            name="data_urodzenia"
+            id="dataUzytkownika"
+          />
+
+          <label for="wiekUzytkownika">Wiek</label>
+          <input
+            class="shadow"
+            type="number"
+            name="wiek"
+            placeholder="Podaj wiek"
+            min="1"
+            max="150"
+            id="wiekUzytkownika"
+          />
+
+          <label for="telefonkUzytkownika">Telefon*</label>
+          <input
+            class="shadow"
+            type="tel"
+            id="telefonkUzytkownika"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            placeholder="xxx-xxx-xxx"
+            maxlength="11"
+            name="telefon"
+            required
+          />
+        </fieldset>
+        <!-- ================================================================== -->
+
+        <fieldset>
+          <legend>Dodatkowe informacje</legend>
+          <br /><label for="uwagi">Uwagi</label>
+          <textarea
+            class="shadow"
+            id="uwagi"
+            rows="10"
+            cols="40"
+            placeholder="Zgłoś Twoje uwagi ..."
+            name="uwagi"
+          ></textarea>
+
+          <label>Płeć</label>
+          <input
+            style="width: 20px"
+            type="radio"
+            name="plec"
+            value="Mężczyzna"
+          />Mężczyzna
+          <input
+            style="width: 20px"
+            type="radio"
+            name="plec"
+            value="Kobieta"
+          />Kobieta
+          <input
+        style="width: 20px"
+        type="radio"
+        name="plec"
+        value="Helikopter Bojowy"
+      />Helikopter Bojowy
+
+          <label for="krajUzytkownika">Kraj</label>
+          <select name="kraj" id="krajUzytkownika">
+            <option value="Polska">Polska</option>
+            <option value="Czechy">Czechy</option>
+            <option value="Niemcy">Niemcy</option>
+          </select>
+
+          <label>Twój avatar</label>
+          <input
+            type="file"
+            name="avatar"
+            accept="image.png, image.jpg, image.webp, image.jpeg"
+          />
+
+          <br /><br /><input type="submit" id="btnSubmit" value="Prześlij" />
+        </fieldset>
+      </form>
+    </center>
+  </body>
+</html>

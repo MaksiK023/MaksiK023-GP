@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Open+Sans&display=swap");
+
+html, body {
+  background-color:orange;
+
+  font-family: "Balsamiq Sans", cursive;
+  color:black;
+  min-width: 500px;
+}
+
+form,
+input,
+textarea,
+select {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+legend {
+  font-size: 30px;
+  color: #4a3f3e;
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px double #f55549;
+  background-color: #f7f3f2;
+}
+
+textarea {
+  width: 400px;
+  font-size: 20px;
+  resize: none; /*blokujemy możliwość zmiany wielkości przez użytkownika*/
+}
+
+label {
+  display: block; /*dodajemy żeby można było ustawić marginesy*/
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+#btnSubmit {
+  background-color: #65e67a;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Balsamiq Sans", cursive;
+  width: 250px;
+  color: white;
+  transition-duration: 0.5s;
+  background: #3ca55c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#btnSubmit:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: #191919;
+}
+/* --- RAINBOW --- */
+.rainbow{animation:rainbow 10s infinite}@keyframes loader{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);border:4px solid #fff;border-left-color:transparent}25%{-webkit-transform:rotate(180deg);transform:rotate(180deg);border:4px solid #277ecd;border-left-color:transparent}50%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #fff;border-left-color:transparent}75%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #277ecd;border-left-color:transparent}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #fff;border-left-color:transparent}}@-webkit-keyframes loader{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);border:4px solid #fff;border-left-color:transparent}25%{-webkit-transform:rotate(180deg);transform:rotate(180deg);border:4px solid #277ecd;border-left-color:transparent}50%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #fff;border-left-color:transparent}75%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #277ecd;border-left-color:transparent}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);border:4px solid #fff;border-left-color:transparent}}@-webkit-keyframes rainbow{0%{color:orange;text-shadow:1px 1px 1px orange}10%{color:purple;text-shadow:1px 1px 1px purple}20%{color:red;text-shadow:1px 1px 1px red}30%{color:CadetBlue;text-shadow:1px 1px 1px CadetBlue}40%{color:#ff0;text-shadow:1px 1px 1px #ff0}50%{color:coral;text-shadow:1px 1px 1px coral}60%{color:green;text-shadow:1px 1px 1px green}70%{color:cyan;text-shadow:1px 1px 1px cyan}80%{color:DeepPink;text-shadow:1px 1px 1px #ff1493}90%{color:DodgerBlue;text-shadow:1px 1px 1px #1e90ff}100%{color:orange;text-shadow:1px 1px 1px orange}}@-ms-keyframes rainbow{0%{color:orange;text-shadow:1px 1px 1px orange}10%{color:purple;text-shadow:1px 1px 1px purple}20%{color:red;text-shadow:1px 1px 1px red}30%{color:CadetBlue;text-shadow:1px 1px 1px CadetBlue}40%{color:#ff0;text-shadow:1px 1px 1px #ff0}50%{color:coral;text-shadow:1px 1px 1px coral}60%{color:green;text-shadow:1px 1px 1px green}70%{color:cyan;text-shadow:1px 1px 1px cyan}80%{color:DeepPink;text-shadow:1px 1px 1px #ff1493}90%{color:DodgerBlue;text-shadow:1px 1px 1px DodgerBlue}100%{color:orange;text-shadow:1px 1px 1px orange}}@keyframes rainbow{0%{color:orange;text-shadow:1px 1px 1px orange}10%{color:purple;text-shadow:1px 1px 1px purple}20%{color:red;text-shadow:1px 1px 1px red}30%{color:CadetBlue;text-shadow:1px 1px 1px CadetBlue}40%{color:#ff0;text-shadow:1px 1px 1px #ff0}50%{color:coral;text-shadow:1px 1px 1px coral}60%{color:green;text-shadow:1px 1px 1px green}70%{color:cyan;text-shadow:1px 1px 1px cyan}80%{color:DeepPink;text-shadow:1px 1px 1px #ff1493}90%{color:DodgerBlue;text-shadow:1px 1px 1px DodgerBlue}100%{color:orange;text-shadow:1px 1px 1px orange}}.spacial-controls{position:fixed;width:111px;height:91px;top:0;right:0;z-index:999}
+/* --- RAINBOW --- */

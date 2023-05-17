@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+body {
+  background-image:url('https://cdn.glitch.com/cd3369a7-e614-49a9-93c1-8871829b4d63%2Fandrew-neel-cckf4TsHAuw-unsplash.jpg?v=1584885423509');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Caveat Brush', cursive;
+}
+#dodajElement {
+  margin: 0px auto 0px auto;
+  width:1000px;
+  text-align:center;
+  padding:10px;
+}
+li {
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+  height:30px;
+  border-radius:10px;
+  padding:10px;
+}
+li:hover { 
+color:red;
+cursor: pointer;
+text-decoration: line-through;
+}
+h1 {
+  font-size:5em;
+  color:white;
+}
+#listaZadan {
+  font-family: 'Caveat Brush', cursive;
+  font-size:32px;;
+  width:500px;
+  background-color:#ffd35c;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  color:#003a91;
+}
+#przyciskDodaj, #przyciskDrukuj {
+  width:200px;
+  height:50px;
+  background-color: #fa4a0a;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  border: 2px solid #fa4a0a;
+  text-transform:uppercase; 
+}
+#przyciskDrukuj:hover,#przyciskDodaj:hover {
+  cursor:pointer;
+  opacity:0.8;
+}
+input {
+  width: 330px;
+  height: 30px;
+  font-family: 'Caveat Brush', cursive;
+  font-size:20px;
+}
+p {
+  color:white;
+  font-size:180%;
+}

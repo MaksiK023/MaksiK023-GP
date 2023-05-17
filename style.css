@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  background-color: grey;
+}
+img {
+  width: 100px;
+}
+table {
+  border-spacing: 0px;
+  width: 100%;
+}
+th,
+td {
+  width: 200px;
+  text-align: center;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+button {
+  color: white;
+  background-color: CornflowerBlue;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid green;
+  transition-duration: 1s;
+  margin-top: 50px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 15px;
+  border-bottom: 2px solid red;
+}
+.przycisk {
+  background-color: green;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid green;
+  transition-duration: 1s;
+  margin-top: 20px;
+}
+.przycisk:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}

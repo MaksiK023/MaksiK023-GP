@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Formularz</title>
+  <link rel="stylesheet" href="form.css" />
+  <link rel="icon" href="https://tcode.ga/website/assets/images/logo.png">
+</head>
+
+<body>
+  <center>
+    <form action="https://formsubmit.co/shop.tcode@gmail.com" method="POST" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Dane użytkownika</legend>
+
+        <label class="rainbow" for="nazwaUzytkownika">Nazwa użytkownika*</label>
+        <input type="text" placeholder="Podaj nazwe użytkownika" id="nazwaUzytkownika" name="nazwa_uzytkownika"
+          required />
+        <label class="rainbow" for="hasloUzytkownika">Hasło*</label>
+        <input
+          type="password"
+          placeholder="Podaj swoje hasło"
+          id="hasloUzytkownika"
+          name="haslo_uzytkownika"
+          required>
+        <label class="rainbow" for="dcUzytkownika">Discord użytkownika</label>
+        <input type="text" maxlength="50" placeholder="Podaj nick z Discorda" id="dcUzytkownika" name="discord_uzytkownika" />
+        <label class="rainbow" for="emailUzytkownika">Email*</label>
+        <input type="email" required name="email" placeholder="Podaj email" id="emailUzytkownika" />
+        <label class="rainbow" for="telefonUzytkownika">Telefon</label>
+        <input type="tel" id="telefonUzytkownika" pattern="[0-9]{9}" placeholder="xxxxxxxxx" maxlength="9"
+          name="telefon" />
+        <label class="rainbow" for="dataUzytkownika">Data Urodzenia</label>
+          <input
+            type="date"
+            name="data_urodzenia"
+            id="dataUzytkownika"
+          />
+        <label class="rainbow" for="wiekUzytkownika">Wiek*</label>
+          <input
+            type="number"
+            name="wiek"
+            placeholder="Podaj wiek"
+            min="7"
+            max="100"
+            id="wiekUzytkownika"
+            required
+          />
+      </fieldset>
+      <!-- ================================================================== -->
+
+      <fieldset>
+        <legend>Dodatkowe informacje</legend>
+        <br /><label for="usluga">Uwagi</label>
+        <textarea class="shadow" id="usluga" rows="10" cols="40" placeholder="Uwagi?" name="Usługa/Problem"
+          required></textarea>
+        <br /><br /><button id="btnSubmit">Prześlij</button>
+        <!-- <input type="submit" id="btnSubmit" value="Prześlij" /> -->
+      </fieldset>
+    </form>
+  </center>
+</body>
+
+</html>

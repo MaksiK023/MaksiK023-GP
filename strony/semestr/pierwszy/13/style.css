@@ -1,0 +1,100 @@
+/*dodaj czcionkę ze strony google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&display=swap");
+
+/*dla elementu body zastosuj wybraną czcionkę*/
+body {
+  font-family: "Chivo Mono", monospace;
+}
+
+/*odwołaj się do klasy kontener*/
+.kontener {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /*ustawiamy kontener jako flexbox*/
+  /*jeśli elementy nie będą się mieścić w jednym wierszu zostaną przeniesione*/
+  /*wyjustowanie elementów względem kontenera */
+}
+/*odwołaj się do klasy karta*/
+.karta {
+  margin: 20px;
+  width: 300px;
+  height: 430px;
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  /*margines z każdej stron-20px */
+  /*szerokość-300px */
+  /*wysokość-430px */
+  /*zastosuj wybrany gradient dla karty  https://uigradients.com/#Anwar*/
+
+  /*zaokrąglenie rogów karty ustaw-15px 15px 0px 0px*/
+  /*ustaw wyśrodkowanie tekstu */
+}
+p {
+  padding: 5px;
+  /*dla paragrafu dodaj wypełnienie na 5 px*/
+}
+/*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło */
+#gra1,
+#gra2,
+#gra3 {
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  height: 170px;
+  background-size: cover;
+  margin-bottom: 10px;
+  /*zaokrąglenie rogów karty ustaw-15px 15px 0px 0px*/
+  /*ustaw szerokość na 100%*/
+  /*ustaw wysokość na 170px;*/
+  /*ustaw aby zdjęcie na tło obrazkowe odpowiednio się skalowało */
+  /*ustaw margines z dołu na 10px*/
+}
+#gra1 {
+  background-image: url("assets/csgo.png");
+  /*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło  i ustaw konkretny obrazek na tło*/
+}
+#gra2 {
+  background-image: url("assets/minecraft.png");
+  /*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło  i ustaw konkretny obrazek na tło*/
+}
+#gra3 {
+  background-image: url("assets/fortnite.png");
+  /*odwołaj się do diva w którym wyświetlisz obrazek z gry jak tło  i ustaw konkretny obrazek na tło*/
+}
+button {
+  padding: 20px;
+  border-radius: 30px;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition-duration: 0.6s;
+  /*sformatuj przycisk według własnego pomysłu*/
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  /*stwórz efekt po najechaniu kursorem myszki na przycisk*/
+}

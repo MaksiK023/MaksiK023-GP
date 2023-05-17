@@ -1,0 +1,19 @@
+document.getElementById("tekst").onclick=function(){
+    document.getElementById("tekst").innerHTML="Kliknięto!";
+  }
+document.getElementById("btnTlumacz").onclick=function(){
+    document.getElementById("doTlumaczenia").innerHTML=
+      "The most common use of JavaScript is pages internet. These scripts are most often used to ensure interaction through reacting to events, validating data entered in forms or creating complex visual effects.";
+  }
+document.getElementById("dodajKolo").onclick=function(){
+    document.getElementById("kolo").style.backgroundColor="red";
+    document.getElementById("kolo").style.width="200px";
+    document.getElementById("kolo").style.height="200px";
+    document.getElementById("kolo").style.borderRadius="100px";
+}
+document.getElementById("kolo").onclick=function(){
+    document.getElementById("kolo").style.backgroundColor="green";
+    document.getElementById("kolo").style.width="100px";
+    document.getElementById("kolo").style.height="100px";
+    document.getElementById("kolo").style.borderRadius="50px";
+}

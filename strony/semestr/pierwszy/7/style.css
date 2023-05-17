@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body {
+    background: #B3FFAB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #12FFF7, #B3FFAB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12FFF7, #B3FFAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+img {
+    width: 200px;
+}
+td, th {
+    width: 280px;
+    text-align: center;
+    font-size: 25px;
+}
+th {
+    background:#fcba03;
+    padding: 20px;
+}
+button {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #fcba03; */
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition-duration: 500ms;
+}
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+#menu {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("https://cdn.glitch.com/fb54ad42-b82c-47b9-bd60-8c6685a09006%2Fpeter-broomfield-m3m-lnR90uM-unsplash.jpg?v=1584820978069");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+ul {
+    text-align: right;
+    padding: 30px;
+}
+li {
+    display: inline;
+    font-weight: 900;
+    padding: 10px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.2s;
+}
+a:hover {
+    border-bottom: 2px solid red;
+}
+#oferta {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.info {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+.column-three {
+    float: left;
+    width: 33.33%;
+}
+h1 {
+    padding: 30px;
+    text-align: center;
+    clear: both;
+}
+p {
+    text-align: left;
+    padding: 50px;
+}
+.mySlides {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid blue;
+}
+#galeria {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#stopka {
+    max-width: 1400px;
+    height: 500px;
+    background-color: #262626;
+    padding: 50px;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column-two {
+    width: 50%;
+    float: left;
+}
+table {
+    font-size: 200%;
+    color: white;
+    border-spacing: 5px;
+}
+th {
+    padding: 10px;
+    text-align: left;
+}
+td {
+    text-align: left;
+}

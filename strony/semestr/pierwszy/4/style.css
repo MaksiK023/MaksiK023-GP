@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    border-radius: 50px;
+    display: block;
+}
+button {
+    background: #b3ffab;
+    background: -webkit-linear-gradient(to right, #b3ffab, #12fff7);
+    background: linear-gradient(to right, #b3ffab, #12fff7);
+    color: black;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    transition-duration: 0.6s;
+}
+.menu {
+    display: inline;
+    padding: 20px;
+}
+.menu a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fc9403;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background: -webkit-linear-gradient(to right, #c4ee08, #fda604);
+    background: linear-gradient(to right, #c4ee08, #fda604);
+}
+.menu a:hover {
+    color: #f0d25d;
+}
+/* --------------------------MOJE NIE Z LEKCJI-------------------------- */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+abbr {
+    text-decoration: none;
+}
+html {
+    cursor: crosshair;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Robota Mano' monospace;
+    background-image:url('https://cdn.glitch.com/c9051263-269d-450f-930e-58a96d981a79%2Fnrd-D6Tu_L3chLE-unsplash.jpg?v=1584791624862');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#dodajElement {
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    text-align: center;
+    padding: 10px;
+    background-color: #e8ebe9;
+    border-radius: 80px;
+}
+li {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+h1 {
+    font-size: 80px;
+}
+#lista {
+    font-family: "Caveat Brush", cursive;
+    font-size: 40px;
+    width: 500px;
+    background-color: #ffd35c;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: #003a91;
+}
+#przyciskDodaj {
+    width: 300px;
+    height: 50px;
+    background-color: #fa4a0a;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border: 2px solid #fa4a0a;
+    text-transform: uppercase;
+}
+#przyciskDodaj:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Dodaj tytuł strony-->
+    <title>Karty gier</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    <!--Dodaj favicon dla strony-->
+    <link rel="icon" href="assets/favicon.png" />
+  </head>
+  <body>
+    <!-- kontener typu flexbox dla naszych wszystkich kart z grami dzięki temu będziemy mogli zarządzać układem -->
+    <div class="kontener">
+      <!-- pojedyncza karta gry -->
+      <div class="karta">
+        <!-- dla tego diva ustawimy tło obrazkowe -->
+        <div id="gra1"></div>
+          <img src="assets/submachine-gun.png" width="50px" />
+          <p>
+            CS:GO to darmowa gra do pobranie z steam! Możesz w nią grać z
+            przyjaciółmi!
+          </p>
+          <a href="#"><button>Czytaj więcej</button></a>
+      </div>
+      <!--wstaw ikonkę nawiązującą do gatunku gry ustaw szerokość na 50px   https://www.flaticon.com/ -->
+      <!--wstaw paragraf z krótkiem tekstem-->
+      <!--wstaw hiperłącze a w nim przycisk, ustaw żeby hiperłącze odwoływało do konkretnej strony z daną grą-->
+      <div class="karta">
+        <div id="gra2"></div>
+          <img src="assets/pickaxe.png" width="50px" />
+          <p>
+            Minecraft to gra o kwadratowym świecie i bochaterach! Zakupić ją
+            możesz na <a href="https://minecraft.net">https://minecraft.net</a>!
+          </p>
+          <a target="_blank" href="https://minecraft.net"><button>Czytaj więcej</button></a>
+        </div>
+      <div class="karta">
+        <div id="gra3"></div>
+          <img src="assets/submachine-gun.png" width="50px" />
+          <p>Fortnite to gra autorstwa EpicGames! Podobna lekko do CS:GO</p>
+          <a href="#"><button>Czytaj więcej</button></a>
+        </div>
+      <!--Dodaj kolejne gry-->
+    </div>
+  </body>
+</html>

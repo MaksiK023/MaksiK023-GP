@@ -1,0 +1,81 @@
+#calaStrona {
+    border: 4px solid red;
+    /* solic-cała,dotted-kropki,
+          dashed-przerywania,double-podwójna
+          groove-linia w 3d, ridge-linia 3d */
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  #naglowek {
+    border: 4px dotted blue;
+  }
+  #nawigacja {
+    border: 4px double lightgreen;
+    background-color: #aac5f2;
+    border-radius: 0px 0px 10px 10px;
+  }
+  #nawigacja li {
+    display: inline;
+    padding: 20px;
+  }
+  #nawigacja a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 3px;
+    border-bottom: 3px solid transparent;
+  }
+  #nawigacja a:hover {
+    cursor: pointer;
+    color: rgb(71, 247, 2);
+    border-bottom: 2px solid white;
+  }
+  #historia {
+    border: 4px solid blue;
+  }
+  #dane {
+    border: 4px dotted rgb(206, 206, 27);
+  }
+  #wadyZalety {
+    border: 4px dashed orange;
+  }
+  #galeria {
+    border: 4px double pink;
+  }
+  #dane ul,
+  #wadyZalety ul,
+  #wadyZalety h4 {
+    text-align: left;
+  }
+  .mySlides {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #galeria img {
+    width: 300px;
+  }
+  #galeria {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    background: #b3ffab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #12fff7,
+      #b3ffab
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #12fff7,
+      #b3ffab
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900&display=swap");
+
+* {
+  /* selektor uniwersalny odnosi się do wszystkich elemntów na stronie */
+  margin: 0;
+  /* domyślnie przeglądarka ma ustawione marginesy, zerujemy wszystkie */
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+header {
+  width: 100%;
+  height: 800px;
+  background-image: url("assets/tlo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-link {
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  border-bottom: 2px solid transparent;
+  transition-duration: 0.6s;
+}
+.menu-link:hover {
+  border-bottom: 2px solid #ff5805;
+  cursor: pointer;
+}
+/* dla małych urządzeń wyświetlamy pozycję w menu pionowo */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+h1 {
+  margin: 100px 0px;
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.kontener {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.info {
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  object-fit: cover;
+}
+/* ustawiamy, aby każde pudełko z potrawami na stronie miało tyle samo miejsca */
+.potrawa {
+  flex: 1;
+}
+p {
+  padding: 0px 20px 0px 20px;
+}
