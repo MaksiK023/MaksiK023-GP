@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Outline&display=swap');
+ 
+body {
+font-family: 'Black Ops One', cursive;
+  font-size:30px;
+  
+  
+}
+ 
+h1 {
+ 
+  color: #373fff;
+ 
+}
+
+img{
+  display:none;
+}
+ 
+#kontener{
+  
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  
+}
+ 
+input{
+  font-family: 'Black Ops One', cursive;
+  width:50px;
+  height:50px;
+  font-size:35px;
+}
+ 
+button{
+  width:200px;
+  height:50px;
+  background-color: #fa4a0a;
+  color: white;
+  cursor:pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  border: 2px solid #fa4a0a;
+  text-transform:uppercase;
+  font-family: 'Black Ops One', cursive;
+  
+}
+ 
+button:hover {
+  background-color: white; 
+  color: black;
+ 
+}
+ 
+p{letter-spacing:4px;}
+ 
+.aktywny{
+  
+  display:block;
+  
+}
+ 
+.ukryty{
+  
+   display:none;
+  
+}
+
+
