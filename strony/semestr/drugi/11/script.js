@@ -49,7 +49,7 @@ for(let i = 0; i < wyraz.length; i++) {
 pozostaleLitery -= spacje;
 
 // #########################################
-console.log(`Wylosowane haslo: ${wyraz}`);
+// console.log(`Wylosowane haslo: ${wyraz}`);
 // #########################################
 
 document.getElementById("gra").textContent = odpowiedz.join(" ");
