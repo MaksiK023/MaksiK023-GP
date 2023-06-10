@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Gra w kości</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer=""></script>
+
+    <link
+      rel="icon"
+      href="assets/kosc-6.png"
+    />
+  </head>
+  <body>
+    <div class="pole-gry clearfix">
+      <div class="gracz-0-panel aktywny">
+        <div class="nazwa-gracza" id="nazwa-0">Gracz 1</div>
+        <div class="wynik-gracza" id="wynik-0">0</div>
+        <div class="gracz-aktualne-pudelko">
+          <div class="etykietka-gracza">Aktualne punkty</div>
+          <div class="wynik-gracza" id="aktualne-punkty-0">0</div>
+        </div>
+      </div>
+
+      <div class="gracz-1-panel">
+        <div class="nazwa-gracza" id="nazwa-1">Gracz 2</div>
+        <div class="wynik-gracza" id="wynik-1">0</div>
+        <div class="gracz-aktualne-pudelko">
+          <div class="etykietka-gracza">Aktualne punkty</div>
+          <div class="wynik-gracza" id="aktualne-punkty-1">0</div>
+        </div>
+      </div>
+
+      <button class="btn-nowa-gra">Nowa gra</button>
+      <button class="btn-rzuc">Rzuć kością</button>
+      <button class="btn-zatrzymaj">Zatrzymaj punkty</button>
+
+      <img
+        src="assets/kosc-6.png"
+        class="kosc"
+        style="display: none"
+      />
+    </div>
+  </body>
+</html>

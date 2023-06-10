@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Righteous", cursive;
+  background-image: url("https://cdn.glitch.com/2f870331-e2e8-4e4b-afe0-2a5cb331b66a%2Friho-kroll-m4sGYaHYN5o-unsplash.jpg?v=1598200303748");
+  background-image: cover;
+  background-position: center top;
+  background-size: cover;
+}
+
+.pole-gry {
+  margin-top: 30px;
+  width: 1000px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e3e3e3;
+}
+
+.gracz-0-panel,
+.gracz-1-panel {
+  width: 50%;
+  float: left;
+  height: 600px;
+  padding: 100px;
+}
+
+.nazwa-gracza {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.wynik-gracza {
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  margin-bottom: 130px;
+}
+
+.aktywny {
+  background-color: #aee65a;
+}
+
+.gracz-aktualne-pudelko {
+  background-color: #eb4d4d;
+  color: #ffffff;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.etykietka-gracza {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #222222;
+}
+
+.wynik-gracza {
+  font-size: 30px;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #555555;
+  background: none;
+  border: none;
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+button:hover {
+  font-weight: 600;
+}
+
+button:focus {
+  outline: none;
+}
+
+input {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  height: 30px;
+  width: 230px;
+  font-family: "Righteous", cursive;
+}
+
+.btn-nowa-gra {
+  top: 45px;
+}
+.btn-rzuc {
+  top: 453px;
+}
+.btn-zatrzymaj {
+  top: 497px;
+}
+
+.kosc {
+  position: absolute;
+  left: 50%;
+  top: 178px;
+  transform: translateX(-50%);
+  height: 200px;
+  box-shadow: 20px 10px 50px 20px grey;
+}
+
+.zwyciestwo {
+  background-color: #ffd700;
+}
+.zwyciestwo .nazwa-gracza {
+  font-weight: 300;
+  color: #eb4d4d;
+}
+
+input {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  height: 30px;
+  width: 230px;
+  font-family: "Righteous", cursive;
+}
